@@ -23,5 +23,5 @@ s=generate(h)';
 x=repmat(src,chip_bps/src_bps,1);
 x=reshape(x,1,length(s));
 msg=bitxor(s,x);
-sig=bpsk_modulatlion(sample_fs,carry_fs,chip_bps,msg);
+sig=bpsk_modulation(sample_fs,carry_fs,chip_bps,msg);
     

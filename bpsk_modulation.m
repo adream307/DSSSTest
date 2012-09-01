@@ -1,4 +1,4 @@
-function sig = bpsk_modulatlion(sample_fs,carry_fs,symble_rate,source)
+function sig = bpsk_modulation(sample_fs,carry_fs,symble_rate,source)
 len=ceil(length(source)/symble_rate*sample_fs);
 sig=zeros(1,len);
 k=1;
